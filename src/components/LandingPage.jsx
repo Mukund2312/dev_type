@@ -4,10 +4,8 @@ import { Shapes } from "./Shapes.jsx";
 import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 
-const DEMO_URL =
-    "https://drive.google.com/file/d/1b-bZ9YWCaB1WtTSd6fTtQFzHPemM6Fyt/preview";
-const DEMO_AUDIO_URL =
-    "https://drive.google.com/file/d/1b-bZ9YWCaB1WtTSd6fTtQFzHPemM6Fyt/view";
+
+    
 
 export function LandingPage() {
     const navigate = useNavigate();
@@ -90,7 +88,7 @@ export function LandingPage() {
                     <button
                         onClick={() =>
                             window.open(
-                                "https://github.com/codeurge123/codeurge",
+                                "https://github.com/Mukund2312/dev_type",
                                 "_blank"
                             )
                         }
